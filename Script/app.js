@@ -10,27 +10,17 @@
     "use strict";
     
 //code goes in here    
-    consile.log ("App Started...")
+    //console.log ("App Started...");
+    console.log("jjjj")
+    //create a reference to a p element with an id of forstParagraph
+    var firstParagraph = document.getElementById("firstParagraph");
     
-    
-    
-    
+    firstParagraph.textContent = "Its Alive!!!";
     
     
     
     
 })();
-/*
-(function(){
-    
-   console.log("App Started"); 
-   
-   //variable decoration and Initialisation
-   var randomnumber = 0;
-   
-   randomnumber=Math.floor((Math.random()*10)+1);
-   
-   console.log(randomnumber);
-})();*/
+
 
 
